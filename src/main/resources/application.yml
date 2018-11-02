@@ -1,0 +1,10 @@
+kafka:
+    bootstrapAddress: localhost:9092
+message:
+    request:
+      topic:
+        name: kafka-requests
+    response:
+      topic:
+        name: kafka-responses
+
